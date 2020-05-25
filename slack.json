@@ -94,7 +94,7 @@
 		  },
 		  "id": {
 			"title": "GUID of the message",
-			"type": "string"
+			"type": ["string", "number"]
 		  },
 		  "user": {
 			"title": "Sender",
@@ -130,10 +130,10 @@
 	"channel": {
 	  "title": "Name of the channel",
 	  "type": "string"
-	},
-	"required": [
-	  "messages",
-	  "channel"
-	]
-  }
+	}
+  },
+  "required": [
+	"messages",
+	"channel"
+  ]
 }
